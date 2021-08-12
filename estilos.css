@@ -12,29 +12,29 @@ body{
 
 h2{
 	background:#B3A742;
-	padding-top:5px;
-	padding-left:5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
+    padding: 5px;
     color: #FFFFFF;
 }
 
 #tb-nutrientes{
+    border: 1px solid black;
     width: 40%;
-    margin-right:auto;
-    margin-left:auto;
-    border:1px solid black;
+    margin: auto;
 }
 
 #tb-nutrientes th{
+    background-color: #F8EA6B;
+}
+
+#tb-nutrientes tr:nth-child(odd){
     background-color: #FFFFFF;
 }
 
-nav ul li{
-    Display:inline;
-    margin-right:50px;
+#tb-nutrientes tr:nth-child(even){
+    background-color: #F8EAB3;
 }
 
-#topo{
-    text-align: center;
+nav ul li{
+    display: inline;
+    margin-right: 50px;
 }
