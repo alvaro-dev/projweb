@@ -26,6 +26,10 @@ figure{
     font-family:'Comic Sans MS',cursive;
     border:1px solid black;
     box-shadow:5px 5px 3px rgba(0,0,0,0.7);
+/*    -webkit-transform:rotate(-5deg);*/
+}
+
+figure:hover{
     -webkit-transform:rotate(-5deg);
 }
 
@@ -54,4 +58,13 @@ nav ul li{
 
 #topo{
     text-align: center;
+}
+
+a{
+    color:blue;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
 }
